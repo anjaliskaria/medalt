@@ -159,11 +159,11 @@ if submitted:
             for se in side_effects:
                 st.markdown(f"- {se}")
  
-# ============================================================
-# 8. Footer
-# ============================================================
-st.divider()
-st.caption(
-    "MedAlt — Layer 1: Logistic Regression (96% accuracy) | "
-    "Layer 2: XGBoost OneVsRest (Jaccard 0.76)"
-)
+# # ============================================================
+# # 8. Footer
+# # ============================================================
+# st.divider()
+# st.caption(
+#     "MedAlt — Layer 1: Logistic Regression (96% accuracy) | "
+#     "Layer 2: XGBoost OneVsRest (Jaccard 0.76)"
+# )
